@@ -1,0 +1,68 @@
+.form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #767676;
+  margin-top: 40px;
+  padding: 15px;
+  overflow: auto;
+  max-height: 60vh;
+}
+
+.input {
+  height: 30px;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.itemList {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 10px auto;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+
+.itemList svg:first-child {
+  margin-right: 10px;
+}
+
+.itemList > span {
+  margin-right: auto;
+}
+
+.itemList > svg, .item-list > span {
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  margin-top: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.updateForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateInput {
+  height: 30px;
+  width: 62%;
+  font-size: 1.3rem;
+}
